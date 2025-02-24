@@ -13,5 +13,9 @@ CSS: Styling and theming (light/dark mode, priority-based colors)
 JavaScript: Functionality for adding, editing, deleting tasks, and dark mode toggle
 
 Installation & UsageClone the repository (steps):
-git clone https://github.com/hash7861/To-Do-List.gitNavigate to the project folder:
+git clone https://github.com/hash7861/To-Do-List.git
+Navigate to the project folder:
 cd To-Do-ListOpen index.html in your browser.
+
+
+Some extensions to the project may include prioritizing tasks by date/month, maybe a Chrome extension to remind users, etc.
