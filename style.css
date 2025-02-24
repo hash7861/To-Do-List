@@ -1,0 +1,78 @@
+/* Style for the To-Do List */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-area {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: #ddd;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.low { background: #c3e6cb; }
+.medium { background: #ffeeba; }
+.high { background: #f5c6cb; }
+.dark-mode .low { background: #5a8f66; color: white; }  
+.dark-mode .medium { background: #b89b4e; color: white; }  
+.dark-mode .high { background: #b35f5f; color: white; }  
+
+.edit { background-color: #007bff; color: white; }
+.edit:hover { background-color: #0056b3; }
+
+.delete { background-color: #dc3545; color: white; }
+.delete:hover { background-color: #c82333; }
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .container {
+    background-color: #444;
+}
+
+#dark-mode-toggle {
+    margin-bottom: 10px;
+}
